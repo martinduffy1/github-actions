@@ -1,0 +1,11 @@
+name: automatic-ci
+
+on:
+  pull_request: # default types are [ opened, synchronize, reopened ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo test
