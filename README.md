@@ -2,6 +2,7 @@
 
 GitHub Actions jobs can have different triggers as documented [on this page](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
 
+
 The following workflow triggers will associate a GitHub Actions job to a Pull Request, affecting the status and listing the job under the Checks tab for that PR.
 - `pull_request`
 - `pull_request_review`
